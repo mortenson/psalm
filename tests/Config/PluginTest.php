@@ -1108,6 +1108,7 @@ class PluginTest extends \Psalm\Tests\TestCase
             $build = [
                 "nested" => [
                     "safe_key" => $_GET["input"],
+                    "a" => $_GET["input"],
                 ],
             ];
             output($build);'
